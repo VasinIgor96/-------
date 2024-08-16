@@ -14,15 +14,28 @@
         <button class="start-test-btn">Почати тест</button>
     </div>
 
+    <!-- Питання 0 -->
+    <div class="question-page" id="question1" style="display: none;">
+        <h2>Якому формату ви надаєте перевагу?</h2>
+        <div class="options">
+            <button class="option-btn" onclick="selectOption(this, 1)">Slim</button>
+            <button class="option-btn" onclick="selectOption(this, 1)">Demi</button>
+        </div>
+        <div class="navigation-buttons">
+            <button class="prev-btn" onclick="showQuestion(0)">Назад</button>
+            <button class="next-btn" onclick="showQuestion(2)" disabled>Далі</button>
+        </div>
+    </div>
+
     <!-- Питання 1 -->
     <div class="question-page" id="question1" style="display: none;">
         <h2>Які смаки вам зазвичай подобаються?</h2>
         <div class="options">
-            <button class="option-btn" onclick="selectOption(this, 1)">Фруктові</button>
-            <button class="option-btn" onclick="selectOption(this, 1)">М'ятні</button>
-            <button class="option-btn" onclick="selectOption(this, 1)">Пряні</button>
-            <button class="option-btn" onclick="selectOption(this, 1)">Солодкі</button>
+            <button class="option-btn" onclick="selectOption(this, 1)">Тропічні фрукти</button>
+            <button class="option-btn" onclick="selectOption(this, 1)">Ментолові</button>
+            <button class="option-btn" onclick="selectOption(this, 1)">Ягідні</button>
             <button class="option-btn" onclick="selectOption(this, 1)">Класичний тютюн</button>
+            <button class="option-btn" onclick="selectOption(this, 1)">Класичний смак з додатковими нотками</button>
         </div>
         <div class="navigation-buttons">
             <button class="prev-btn" onclick="showQuestion(0)">Назад</button>
@@ -32,12 +45,11 @@
 
     <!-- Питання 2 -->
     <div class="question-page" id="question2" style="display: none;">
-        <h2>Наскільки сильний смак ви віддаєте перевагу?</h2>
+        <h2>Якої міцності ви віддаєте перевагу?</h2>
         <div class="options">
-            <button class="option-btn" onclick="selectOption(this, 2)">Дуже м'який</button>
-            <button class="option-btn" onclick="selectOption(this, 2)">М'який</button>
-            <button class="option-btn" onclick="selectOption(this, 2)">Сильний</button>
-            <button class="option-btn" onclick="selectOption(this, 2)">Дуже сильний</button>
+            <button class="option-btn" onclick="selectOption(this, 2)">Легкі</button>
+            <button class="option-btn" onclick="selectOption(this, 2)">Середні</button>
+            <button class="option-btn" onclick="selectOption(this, 2)">Міцні</button>
         </div>
         <div class="navigation-buttons">
             <button class="prev-btn" onclick="showQuestion(1)">Назад</button>
@@ -61,13 +73,13 @@
 
     <!-- Питання 4 -->
     <div class="question-page" id="question4" style="display: none;">
-        <h2>У яких ситуаціях ви зазвичай курите?</h2>
+        <h2>Як ви ставитеся до нових смаків?</h2>
         <div class="options">
-            <button class="option-btn" onclick="selectOption(this, 4)">Після їжі</button>
-            <button class="option-btn" onclick="selectOption(this, 4)">Під час перерви</button>
-            <button class="option-btn" onclick="selectOption(this, 4)">На соціальних заходах</button>
-            <button class="option-btn" onclick="selectOption(this, 4)">Вдома</button>
-            <button class="option-btn" onclick="selectOption(this, 4)">У будь-який час</button>
+            <button class="option-btn" onclick="selectOption(this, 4)">Люблю експериментувати</button>
+            <button class="option-btn" onclick="selectOption(this, 4)">Час від часу пробую нове</button>
+            <button class="option-btn" onclick="selectOption(this, 4)">Віддаю перевагу перевіреним варіантам</button>
+            <button class="option-btn" onclick="selectOption(this, 4)">Зазвичай не експериментую</button>
+            <button class="option-btn" onclick="selectOption(this, 4)">Пробую тільки популярні новинки</button>
         </div>
         <div class="navigation-buttons">
             <button class="prev-btn" onclick="showQuestion(3)">Назад</button>
