@@ -112,3 +112,9 @@ body {
 .action-btn {
     margin-top: 10px;
 }
+
+.bold_color{
+    font-weight: 600;
+    color: #c55b05;
+
+}
